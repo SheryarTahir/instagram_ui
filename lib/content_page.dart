@@ -12,13 +12,13 @@ class ContentPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
           child: GNav(
-              padding: EdgeInsets.all(16),
+              padding: const EdgeInsets.all(16),
               rippleColor: Colors.grey.shade50,
               tabBackgroundColor: Colors.grey.shade50,
               iconSize: 20,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               gap: 8,
-              tabs: [
+              tabs: const [
                 GButton(
                   icon: LineIcons.home,
                   text: 'Home',
